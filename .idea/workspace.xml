@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0acb8bd7-4ea1-4777-9d13-f620008cc8dd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/IntelliLang.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_windows/abbreviations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_windows/git.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_windows/keymap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_windows/laf.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/ico/apple-touch-icon-114-precomposed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/ico/apple-touch-icon-144-precomposed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/ico/apple-touch-icon-57-precomposed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/ico/apple-touch-icon-72-precomposed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/ico/favicon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/base-css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/camera.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/tm_docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/bootstrap-mdo-sfmoma-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/bootstrap-mdo-sfmoma-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/bootstrap-mdo-sfmoma-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/bs-docs-masthead-pattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/camera-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/camera_skins.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/patterns/overlay1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/patterns/overlay10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/patterns/overlay2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/patterns/overlay3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/patterns/overlay4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/patterns/overlay5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/patterns/overlay6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/patterns/overlay7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/patterns/overlay8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/patterns/overlay9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/slides/bridge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/slides/leaf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/slides/road.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/slides/sea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/slides/shelter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/camera/slides/tree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/ico/apple-touch-icon-114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/ico/apple-touch-icon-144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/ico/apple-touch-icon-57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/ico/apple-touch-icon-72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/ico/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/AIM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Apple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Blogger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Delicious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Digg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Dopplr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Evernote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Flickr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Google.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Mail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/MobileMe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/MySpace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Picasa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/RSS.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Skype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Stumble_Upon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Technorati.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Windows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Yahoo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/20x20/Youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/blip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/flickr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/lastfm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/myspace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/picasa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/tumblr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/wordpress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/35x35/yt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/delicious_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/digg_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/facebook_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/flickr_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/lastfm_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/linkedin_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/myspace_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/rss_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/stumbleupon_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/technorati_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/twitter_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/vimeo_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/40x40/youtube_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/55x55_2/delicious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/55x55_2/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/55x55_2/flickr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/55x55_2/foursquare.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/55x55_2/google_buzz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/55x55_2/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/55x55_2/stumbleupon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/55x55_2/technorati.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/55x55_2/tumblr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/55x55_2/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/big/delicious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/big/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/big/flickr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/big/furl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/big/reddit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/big/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/big/stumbleupon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/big/technorati.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/big/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/big/yahoo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/big/youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/delicious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/email.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/feed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/flickr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/aim.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/delicious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/flickr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/google.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/picasa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/reddit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/skype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/stumbleupon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/technorati.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/medium/vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/stumble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/tripadvisor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/responsive-illustrations.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/120x120_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/120x120_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/120x120_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/120x120_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/120x120_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/120x120_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/120x120_7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/120x120_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/700x430_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/700x430_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/700x430_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/700x430_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/700x430_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/700x430_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/700x430_7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/stock_images/700x430_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tm/plus-minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tm/portfolio-1col.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tm/portfolio-2col+capt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tm/portfolio-2col.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tm/portfolio-3col+capt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tm/portfolio-3col.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tm/portfolio-4col+capt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tm/portfolio-4col.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tm/pro_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tm/right_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tm/tm_home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tm/twitter_bird_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/intro.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap-typeahead.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/camera.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/holder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery-migrate-1.1.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.countdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.isotope.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.mobile.customized.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.tweet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/sForm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/portfolio.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scaffolding.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/slider.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/social_media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/under_construction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/baseRefactoring.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/colors.scheme.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/colors/Wombat.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/colors/Xcode Midnight.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/touchTouch.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/debugger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diff.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/requirejs/text!/version.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/find.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/fontawesome-webfont3294.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/fontawesome-webfont3294.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/fontawesome-webfont3294.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/fontawesome-webfontd41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/github_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ide.general.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/border.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dotted.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/error.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/global_gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/head.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/header_glow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/holder_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/img5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/img6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/key.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menu-marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menu-marker2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menu_bg1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menu_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/next-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page1_pic1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2_pic1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2_pic2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2_pic3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2_pic4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2_pic5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page2_pic6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page3_pic1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page3_pic2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page3_pic3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page3_pic4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page3_pic5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page3_pic6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/page3_pic7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picture1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picture2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picture3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picture4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/play.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/preloader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prev-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/quote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tm/tm_home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index-4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index-5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inspection/Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/forms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5shiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-migrate-1.1.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.flexslider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.mobilemenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.ui.totop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/superfish.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/touchTouch.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/other.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project.default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ui.lnf.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-browsers.xml" afterPath="" />
+    </list>
+    <ignored path="build.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="build" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0acb8bd7-4ea1-4777-9d13-f620008cc8dd" name="Default" comment="" />
+      <created>1472766042795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1472766042795</updated>
+      <workItem from="1472766044214" duration="672000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="672000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
