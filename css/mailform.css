@@ -1,0 +1,838 @@
+/*========================================================
+                      Contact Form
+=========================================================*/
+/* MF
+========================================================*/
+.mailform {
+  position: relative;
+  text-align: left;
+}
+.mailform fieldset {
+  border: none;
+}
+.mailform fieldset > label:first-child {
+  margin-top: 0;
+}
+.mailform * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mailform .wrap {
+  word-spacing: -4px;
+}
+.mailform .wrap label {
+  display: inline-block;
+  word-spacing: normal;
+  max-width: 49.41724941724942%;
+}
+.mailform .wrap label + label {
+  margin-left: 1.165501165501166%;
+}
+@media (max-width: 767px) {
+  .mailform .wrap {
+    word-spacing: -4px;
+  }
+  .mailform .wrap label {
+    display: block;
+    word-spacing: normal;
+    max-width: 100%;
+  }
+  .mailform .wrap label + label {
+    margin-left: 0;
+  }
+}
+
+.mailform label {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+.mailform label input, .mailform label select, .mailform label textarea {
+  display: block;
+  width: 100%;
+  margin: 0;
+  -webkit-appearance: none;
+  outline: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 17px 20px;
+  line-height: 20px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.26);
+  border: 3px solid rgba(255, 255, 255, 0.26);
+}
+.mailform label input:-moz-placeholder, .mailform label select:-moz-placeholder, .mailform label textarea:-moz-placeholder {
+  font-size: 18px;
+  border: 3px solid transparent;
+  color: #fff;
+  opacity: 1;
+}
+.mailform label input::-webkit-input-placeholder, .mailform label select::-webkit-input-placeholder, .mailform label textarea::-webkit-input-placeholder {
+  font-size: 18px;
+  border: 3px solid transparent;
+  color: #fff;
+  opacity: 1;
+}
+.mailform label input::-moz-placeholder, .mailform label select::-moz-placeholder, .mailform label textarea::-moz-placeholder {
+  font-size: 18px;
+  border: 3px solid transparent;
+  color: #fff;
+  opacity: 1;
+}
+.mailform label input:-ms-input-placeholder, .mailform label select:-ms-input-placeholder, .mailform label textarea:-ms-input-placeholder {
+  font-size: 18px;
+  border: 3px solid transparent;
+  color: #fff;
+  opacity: 1;
+}
+.mailform label textarea {
+  resize: vertical;
+  overflow: auto;
+  resize: none;
+  height: 237px;
+}
+
+/* MF Input
+========================================================*/
+.mfInput input:-webkit-autofill ~ .mfIcon span:before,
+.mfInput textarea:-webkit-autofill ~ .mfIcon span:before {
+  color: #2D2D2D;
+}
+
+/* MF Controls
+========================================================*/
+.mfControls {
+  margin-top: 9px;
+  word-spacing: 10px;
+}
+.mfControls > * {
+  word-spacing: normal;
+  margin-bottom: 5px;
+}
+
+/* Mail Form PlaceHolder
+========================================================*/
+.mfPlaceHolder {
+  -moz-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  font: inherit;
+  cursor: text;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 17px 20px;
+  line-height: 20px;
+  font-size: 18px;
+  border: 3px solid transparent;
+  color: #fff;
+  opacity: 1;
+}
+*:-webkit-autofill ~ .mfPlaceHolder {
+  opacity: .4;
+  color: #000;
+  font-size: 10px;
+  -moz-transform: translateY(-28%);
+  -ms-transform: translateY(-28%);
+  -o-transform: translateY(-28%);
+  -webkit-transform: translateY(-28%);
+  transform: translateY(-28%);
+}
+.mfPlaceHolder.state-1 {
+  opacity: .4;
+  font-size: 10px;
+  -moz-transform: translateY(-28%);
+  -ms-transform: translateY(-28%);
+  -o-transform: translateY(-28%);
+  -webkit-transform: translateY(-28%);
+  transform: translateY(-28%);
+}
+
+/* Mail Form Validation
+  ========================================================*/
+.mfValidation {
+  -moz-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  -o-transform-origin: 100% 50%;
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -moz-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  -webkit-animation: notifanim-fo 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+  -moz-animation: notifanim-fo 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+  -ms-animation: notifanim-fo 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+  -o-animation: notifanim-fo 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+  animation: notifanim-fo 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+  font-weight: 300;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 210px;
+  padding: 0;
+  margin: 3px 10px 3px 0;
+  line-height: 20px;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+  text-align: right;
+}
+.mfValidation:hover {
+  right: 5px;
+}
+.mfValidation.error {
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+  -webkit-animation: notifanim 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+  -moz-animation: notifanim 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+  -ms-animation: notifanim 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+  -o-animation: notifanim 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+  animation: notifanim 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+}
+
+@-ms-keyframes notifanim-fo {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+    transform: scale(0.3);
+    opacity: 0;
+  }
+}
+@-o-keyframes notifanim-fo {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+    transform: scale(0.3);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes notifanim-fo {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+    transform: scale(0.3);
+    opacity: 0;
+  }
+}
+@-moz-keyframes notifanim-fo {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+    transform: scale(0.3);
+    opacity: 0;
+  }
+}
+@keyframes notifanim-fo {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+    transform: scale(0.3);
+    opacity: 0;
+  }
+}
+@-ms-keyframes notifanim {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.3);
+  }
+  1% {
+    visibility: visible;
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-o-keyframes notifanim {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.3);
+  }
+  1% {
+    visibility: visible;
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes notifanim {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.3);
+  }
+  1% {
+    visibility: visible;
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-moz-keyframes notifanim {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.3);
+  }
+  1% {
+    visibility: visible;
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes notifanim {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.3);
+  }
+  1% {
+    visibility: visible;
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* Mail Form Date Picker
+========================================================*/
+.mfDatePicker {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 15px;
+  padding: 10px 15px;
+  opacity: 0;
+  z-index: 1;
+  visibility: hidden;
+  -webkit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.3);
+  -moz-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+  -webkit-animation: dropd-anim-fo 0.4s ease-in-out forwards;
+  -moz-animation: dropd-anim-fo 0.4s ease-in-out forwards;
+  -ms-animation: dropd-anim-fo 0.4s ease-in-out forwards;
+  -o-animation: dropd-anim-fo 0.4s ease-in-out forwards;
+  animation: dropd-anim-fo 0.4s ease-in-out forwards;
+  background: #fff;
+  color: #111;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.mfDatePicker:before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 15px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent #fff transparent;
+}
+.mfDatePicker table {
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 3px;
+  font-size: 12px;
+}
+.mfDatePicker table th {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.mfDatePicker table td {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  -moz-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  border-radius: 50%;
+}
+.mfDatePicker table td:hover {
+  background: #ececec;
+}
+.mfDatePicker table td.dp-offset {
+  color: #c6bbba;
+}
+.mfDatePicker table td.dp-today {
+  color: #FFF;
+  background: #111;
+}
+.mfDatePicker table td.dp-selected {
+  color: #FFF;
+  background: #4C3469;
+}
+.mfDatePicker_next, .mfDatePicker_prev {
+  font: 400 22px 'material-design';
+  line-height: inherit;
+  text-align: center;
+  color: #111;
+  cursor: pointer;
+}
+.mfDatePicker_next:hover, .mfDatePicker_prev:hover {
+  color: #4C3469;
+}
+.mfDatePicker_panel {
+  text-align: center;
+  padding: 0 2px;
+  line-height: 30px;
+}
+.mfDatePicker_next {
+  float: right;
+}
+.mfDatePicker_next:before {
+  content: '\e0c2';
+}
+.mfDatePicker_prev {
+  float: left;
+}
+.mfDatePicker_prev:before {
+  content: '\e0c3';
+}
+.mfDatePicker_panel + table {
+  margin-top: 5px;
+}
+.mfDatePicker.open {
+  -webkit-animation: dropd-anim 0.5s ease-in-out forwards;
+  -moz-animation: dropd-anim 0.5s ease-in-out forwards;
+  -ms-animation: dropd-anim 0.5s ease-in-out forwards;
+  -o-animation: dropd-anim 0.5s ease-in-out forwards;
+  animation: dropd-anim 0.5s ease-in-out forwards;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Mail Form Icon
+========================================================*/
+/* Mail Form Submit
+========================================================*/
+.mfProgress {
+  position: relative;
+}
+.mfProgress .cnt, .mfProgress .loader {
+  -moz-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+}
+.mfProgress .loader {
+  opacity: 0;
+  text-align: center;
+  letter-spacing: 10px;
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.mfProgress .loader, .mfProgress .loader:before, .mfProgress .loader:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  margin: auto;
+}
+.mfProgress .loader:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.mfProgress .loader:after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font: 400 30px "FontAwesome";
+  line-height: inherit;
+  -moz-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  -moz-transform: scale(0) rotate(-60deg);
+  -ms-transform: scale(0) rotate(-60deg);
+  -o-transform: scale(0) rotate(-60deg);
+  -webkit-transform: scale(0) rotate(-60deg);
+  transform: scale(0) rotate(-60deg);
+}
+.mfProgress.sending .cnt, .mfProgress.fail .cnt, .mfProgress.success .cnt {
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity: 0;
+}
+.mfProgress.sending .loader, .mfProgress.fail .loader, .mfProgress.success .loader {
+  opacity: 1;
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.mfProgress.fail .loader:before, .mfProgress.success .loader:before {
+  opacity: 0;
+  -webkit-animation: fout 0.4s ease-in-out 1 forwards;
+  -moz-animation: fout 0.4s ease-in-out 1 forwards;
+  -ms-animation: fout 0.4s ease-in-out 1 forwards;
+  -o-animation: fout 0.4s ease-in-out 1 forwards;
+  animation: fout 0.4s ease-in-out 1 forwards;
+}
+.mfProgress.fail .loader:after, .mfProgress.success .loader:after {
+  -moz-transform: scale(1) rotate(0deg);
+  -ms-transform: scale(1) rotate(0deg);
+  -o-transform: scale(1) rotate(0deg);
+  -webkit-transform: scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
+}
+.mfProgress.sending .loader:before {
+  -webkit-animation: motion 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+  -moz-animation: motion 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+  -ms-animation: motion 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+  -o-animation: motion 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+  animation: motion 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+.mfProgress.fail .loader:after {
+  content: '\f00d';
+}
+.mfProgress.success .loader:after {
+  content: '\f00c';
+}
+
+.mfProgress .msg {
+  -moz-transform-origin: 0% 50%;
+  -ms-transform-origin: 0% 50%;
+  -o-transform-origin: 0% 50%;
+  -webkit-transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
+  -moz-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  -webkit-animation: notifanim-fo 0.4s ease-in-out forwards;
+  -moz-animation: notifanim-fo 0.4s ease-in-out forwards;
+  -ms-animation: notifanim-fo 0.4s ease-in-out forwards;
+  -o-animation: notifanim-fo 0.4s ease-in-out forwards;
+  animation: notifanim-fo 0.4s ease-in-out forwards;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  position: absolute;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  opacity: 0;
+  visibility: hidden;
+  top: 100%;
+  left: 50%;
+  width: 230px;
+  margin-left: -115px;
+  margin-top: 20px;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  background: #111;
+  color: #fff;
+}
+.mfProgress .msg:before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  right: 50%;
+  transform: translate(50%, 0%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent #111 transparent;
+  -moz-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+}
+.mfProgress.fail .msg, .mfProgress.success .msg {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+  -webkit-animation: notifanim 0.4s ease-in-out forwards;
+  -moz-animation: notifanim 0.4s ease-in-out forwards;
+  -ms-animation: notifanim 0.4s ease-in-out forwards;
+  -o-animation: notifanim 0.4s ease-in-out forwards;
+  animation: notifanim 0.4s ease-in-out forwards;
+}
+.mfProgress.fail .msg {
+  background: #a5222b;
+}
+.mfProgress.fail .msg:before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent #a5222b transparent;
+}
+.mfProgress.success .msg {
+  background: #1c1c1c;
+}
+.mfProgress.success .msg:before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent #1c1c1c transparent;
+}
+@media (max-width: 767px) {
+  .mfProgress .msg {
+    left: 0;
+    margin-left: 0;
+  }
+  .mfProgress .msg:before {
+    right: 81%;
+  }
+}
+
+@-ms-keyframes fout {
+  0% {
+    transform: scale(1) translateX(0);
+  }
+  100% {
+    transform: scale(0) translateX(0);
+  }
+}
+@-o-keyframes fout {
+  0% {
+    transform: scale(1) translateX(0);
+  }
+  100% {
+    transform: scale(0) translateX(0);
+  }
+}
+@-webkit-keyframes fout {
+  0% {
+    transform: scale(1) translateX(0);
+  }
+  100% {
+    transform: scale(0) translateX(0);
+  }
+}
+@-moz-keyframes fout {
+  0% {
+    transform: scale(1) translateX(0);
+  }
+  100% {
+    transform: scale(0) translateX(0);
+  }
+}
+@keyframes fout {
+  0% {
+    transform: scale(1) translateX(0);
+  }
+  100% {
+    transform: scale(0) translateX(0);
+  }
+}
+@-ms-keyframes motion {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  25% {
+    transform: translateX(-50px) scale(0.3);
+  }
+  50% {
+    transform: translateX(0) scale(1);
+  }
+  75% {
+    transform: translateX(50px) scale(0.3);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+@-o-keyframes motion {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  25% {
+    transform: translateX(-50px) scale(0.3);
+  }
+  50% {
+    transform: translateX(0) scale(1);
+  }
+  75% {
+    transform: translateX(50px) scale(0.3);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+@-webkit-keyframes motion {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  25% {
+    transform: translateX(-50px) scale(0.3);
+  }
+  50% {
+    transform: translateX(0) scale(1);
+  }
+  75% {
+    transform: translateX(50px) scale(0.3);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+@-moz-keyframes motion {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  25% {
+    transform: translateX(-50px) scale(0.3);
+  }
+  50% {
+    transform: translateX(0) scale(1);
+  }
+  75% {
+    transform: translateX(50px) scale(0.3);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+@keyframes motion {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  25% {
+    transform: translateX(-50px) scale(0.3);
+  }
+  50% {
+    transform: translateX(0) scale(1);
+  }
+  75% {
+    transform: translateX(50px) scale(0.3);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}

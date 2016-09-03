@@ -1,0 +1,123 @@
+/*==========================================================
+                        NORMALIZE
+==========================================================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button,
+input[type='button'] {
+  background: none;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  outline: none;
+  outline-offset: 0;
+  cursor: pointer;
+  overflow: visible;
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input[type='button']::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+
+.container {
+  padding: 0 60px;
+}
+
+[class*='grid_'] {
+  float: left;
+}
+
+.grid_3 {
+  width: 23.83419689119171%;
+}
+
+.grid_3 + .grid_3 {
+  margin-left: 1.55440414507772%;
+}
+
+.grid_6 {
+  width: 49.22279792746114%;
+}
+
+.grid_6 + .grid_6 {
+  margin-left: 1.55440414507772%;
+}
+
+.preffix_6 {
+  margin-left: 50.7772%;
+}
+
+@media (max-width: 979px) {
+  [class*='grid_'] {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+  [class*='grid_'] + [class*='grid_'] {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+@media (max-width: 479px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.container:before, .row:before, .container:after, .row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.container:after, .row:after {
+  clear: both;
+}
