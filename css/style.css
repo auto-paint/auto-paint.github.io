@@ -8,7 +8,8 @@
 body {
   background: #1c1c1c;
   color: #ffffff;
-  font: 500 15px/29px "Raleway", sans-serif;
+  /*font: 500 15px/29px "Raleway", sans-serif;*/
+  font: 500 15px/29px sans-serif;
   -webkit-text-size-adjust: none;
 }
 
@@ -63,7 +64,7 @@ h3, address.phone {
 }
 @media (max-width: 1599px) {
   h3, address.phone {
-    font-size: 36px;
+    font-size: 32px;
     line-height: 52px;
   }
 }
@@ -255,7 +256,7 @@ p + p {
 
 /*==================      Box      ======================*/
 .box {
-  padding: 139px 60px 137px;
+  padding: 50px 60px 50px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -294,19 +295,19 @@ p + p {
   background: #a5222b;
 }
 .box__ins1 {
-  padding-top: 35px;
-  padding-bottom: 54px;
+/*  padding-top: 35px;
+  padding-bottom: 54px;*/
 }
 .box__ins2 {
-  padding-top: 55px;
-  padding-bottom: 58px;
+/*  padding-top: 55px;
+  padding-bottom: 58px;*/
 }
 .box__ins3 {
-  padding-top: 40px;
-  padding-bottom: 42px;
+/*  padding-top: 40px;
+  padding-bottom: 42px;*/
 }
 .box__ins3 .box_cnt {
-  padding-top: 99px;
+  /*padding-top: 99px;*/
 }
 .box__mod {
   border-color: rgba(255, 255, 255, 0.54);
@@ -817,6 +818,7 @@ header .nav {
 =========================================================*/
 main {
   display: block;
+  font-size: large;
 }
 
 /*==================      Well     ======================*/
