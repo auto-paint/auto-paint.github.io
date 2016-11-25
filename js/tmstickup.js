@@ -1,12 +1,12 @@
 (function($,undefined){
-	var 
+  var
 		def={
-			stuckClass:'isStuck'			
+      stuckClass: 'isStuck'
 		}
 		,doc=$(document),anim = false;
 
 	$.fn.TMStickUp=function(opt){
-		opt=$.extend(true,{},def,opt)
+    opt = $.extend(true, {}, def, opt);
 
 		$(this).each(function(){
 			var $this=$(this)
@@ -16,39 +16,39 @@
 				,height//=$this.outerHeight()
 				,stuckedHeight=clone.outerHeight()
 				,opened//=$.cookie&&$.cookie('panel1')==='opened'
-				,tmr
+        , tmr;
 
 			$(window).resize(function(){
-				clearTimeout(tmr)				
-				clone.css({top:isStuck?0:-stuckedHeight,visibility:isStuck?'visible':'hidden'})
+        clearTimeout(tmr);
+        clone.css({top: isStuck ? 0 : -stuckedHeight, visibility: isStuck ? 'visible' : 'hidden'});
 				tmr=setTimeout(function(){
-					posY=$this.offset().top//+$this.outerHeight()				
-					height=$this.outerHeight()
-					stuckedHeight=clone.outerHeight()
-					opened=$.cookie&&$.cookie('panel1')==='opened'
+          posY = $this.offset().top//+$this.outerHeight()
+          height = $this.outerHeight();
+          stuckedHeight = clone.outerHeight();
+          opened = $.cookie && $.cookie('panel1') === 'opened';
 
 					clone.css({top:isStuck?0:-stuckedHeight})
-				},40)
-			}).resize()
+        }, 40);
+      }).resize();
 
 			clone.css({
-				position:'fixed'				
+        position: 'fixed'
 				,width:'100%'
-			})
+      });
 
 			$this
 				.on('rePosition',function(e,d){
 					if(isStuck)
-						clone.animate({marginTop:d},{easing:'linear'})
+            clone.animate({marginTop: d}, {easing: 'linear'});
 					if(d===0)
-						opened=false
+            opened = false;
 					else
 						opened=true
-				})
-			
+        });
+
 			doc
 				.on('scroll',function(){
-					var scrollTop=doc.scrollTop()
+          var scrollTop = doc.scrollTop();
 
 					if(scrollTop>=posY&&!isStuck){
 						clone
@@ -57,13 +57,11 @@
 							.animate({
 								top:0
 								,marginTop:opened?50:0
-							},{
+							},{});
 
-							})
-							
 						isStuck=true
 					}
-					
+
 					if(scrollTop<posY+height&&isStuck){
 						$('.sf-menu ul').css('display', 'none');
 
@@ -83,12 +81,12 @@
 									clone.css({visibility:'hidden'})
 								}
 							});
-						
+
 						isStuck=false;
 
-					}			
-				})				
+          }
+        })
 				.trigger('scroll')
 		})
 	}
-})(jQuery)
+})(jQuery);

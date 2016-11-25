@@ -3,15 +3,15 @@ $(function () {
     $("[data-equal-group]").each(function () {
         $(this).contents().wrapAll("<div class='box_inner'></div>");
     })
-})
+});
 /*add event*/
-$(window).bind("resize", height_handler).bind("load", height_handler)
+$(window).bind("resize", height_handler).bind("load", height_handler);
 function height_handler() {
 
     var groups = [];
     $("[data-equal-group]").each(function () {
         var g = $(this).data('equal-group');
-        if (!groups[g]) {            
+      if (!groups[g]) {
             groups[g] = [];
         }
         groups[g].push(this);
@@ -44,4 +44,4 @@ function height_handler() {
             $(this).height(tallest)
         })
     }
-})(jQuery)
+})(jQuery);

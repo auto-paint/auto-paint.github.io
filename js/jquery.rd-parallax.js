@@ -18,7 +18,7 @@
             'patternClass': 'parallax_pattern',
             'contentClass': 'parallax_cnt',
             'wrapClass': 'parallax'
-        }
+        };
 
         this.$wrap = $(element);
 

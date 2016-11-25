@@ -17,7 +17,7 @@
         cntClass: 'styleswitcher_cnt',
         schemeClass: 'styleswitcher_scheme',
         linkID: 'colorScheme'
-    }
+    };
 
     var RDStyleSwitcher = function (options) {
         this.options = options;

@@ -5,8 +5,7 @@ function include(scriptUrl) {
 function isIE() {
     var myNav = navigator.userAgent.toLowerCase();
     return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
-};
-
+}
 /* cookie.JS
  ========================================================*/
 include('js/jquery.cookie.js');
@@ -15,22 +14,20 @@ include('js/jquery.cookie.js');
  ========================================================*/
 include('js/jquery.easing.1.3.js');
 
-/* PointerEvents  
+/* PointerEvents
  ========================================================*/
-;
 (function ($) {
-    if(isIE() && isIE() < 11){ 
+  if (isIE() && isIE() < 11) {
         include('js/pointer-events.js');
-        $('html').addClass('lt-ie11'); 
+    $('html').addClass('lt-ie11');
         $(document).ready(function(){
             PointerEventsPolyfill.initialize({});
         });
     }
-})(jQuery); 
+})(jQuery);
 
 /* Stick up menus
  ========================================================*/
-;
 (function ($) {
     var o = $('html');
     if (o.hasClass('desktop')) {
@@ -44,7 +41,6 @@ include('js/jquery.easing.1.3.js');
 
 /* ToTop
  ========================================================*/
-;
 (function ($) {
     var o = $('html');
     if (o.hasClass('desktop')) {
@@ -61,7 +57,6 @@ include('js/jquery.easing.1.3.js');
 
 /* EqualHeights
  ========================================================*/
-;
 (function ($) {
     var o = $('[data-equal-group]');
     if (o.length > 0) {
@@ -71,7 +66,6 @@ include('js/jquery.easing.1.3.js');
 
 /* SMOOTH SCROLLIG
  ========================================================*/
-;
 (function ($) {
     var o = $('html');
     if (o.hasClass('desktop')) {
@@ -89,7 +83,6 @@ include('js/jquery.easing.1.3.js');
 
 /* Copyright Year
  ========================================================*/
-;
 (function ($) {
     var currentYear = (new Date).getFullYear();
     $(document).ready(function () {
@@ -100,21 +93,18 @@ include('js/jquery.easing.1.3.js');
 
 /* Superfish menus
  ========================================================*/
-;
 (function ($) {
-    include('js/superfish.js');    
+  include('js/superfish.js');
 })(jQuery);
 
 /* Navbar
  ========================================================*/
-;
 (function ($) {
     include('js/jquery.rd-navbar.js');
 })(jQuery);
 
 /* WOW
  ========================================================*/
-;
 (function ($) {
     var o = $('html');
 
@@ -131,12 +121,11 @@ include('js/jquery.easing.1.3.js');
 
 /* Contact Form
  ========================================================*/
-;
 (function ($) {
     var o = $('#contact-form');
     if (o.length > 0) {
         include('js/modal.js');
-        include('js/TMForm.js'); 
+      include('js/TMForm.js');
 
         if($('#contact-form .recaptcha').length > 0){
         	include('//www.google.com/recaptcha/api/js/recaptcha_ajax.js');
@@ -194,7 +183,6 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 
 /* FancyBox
  ========================================================*/
-;
 (function ($) {
     var o = $('.thumb');
     if (o.length > 0) {
@@ -209,40 +197,39 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 
 /* Parallax
  =============================================*/
-;
 (function ($) {
     include('js/jquery.rd-parallax.js');
 })(jQuery);
 
 /* Mailform
  =============================================*/
-;(function ($) {
-    include('js/mailform/jquery.form.min.js');
+(function ($) {
+  include('js/mailform/jquery.form.min.js');
     include('js/mailform/jquery.rd-mailform.min.c.js');
 })(jQuery);
 
 /* Scroll To
  =============================================*/
-;(function ($) {
-    include('js/scrollTo.js');
+(function ($) {
+  include('js/scrollTo.js');
 })(jQuery);
 
 /* Style Switcher
  =============================================*/
-;(function ($) {
-    include('js/jquery.rd-styleswitcher.js');
+(function ($) {
+  include('js/jquery.rd-styleswitcher.js');
     $(document).ready(function () {
         $.rdstyleswitcher({
             schemes: [
                 {
                     'id': 'Scheme 1',
-                    'icon': '#a5222b' 
+                  'icon': '#a5222b'
                 },
                 {
                     'id': 'Scheme 2',
                     'url': 'css/colorScheme-1.css',
                     'icon': '#303F9F'
-                }, 
+                },
                 {
                     'id': 'Scheme 3',
                     'url': 'css/colorScheme-2.css',
@@ -260,4 +247,4 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
             ]
         });
     });
-})(jQuery); 
+})(jQuery);
