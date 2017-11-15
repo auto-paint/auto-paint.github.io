@@ -216,6 +216,8 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 
 /* Style Switcher
  =============================================*/
+/*
+
 (function ($) {
   include('js/jquery.rd-styleswitcher.js');
     $(document).ready(function () {
@@ -248,3 +250,4 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
         });
     });
 })(jQuery);
+*/
