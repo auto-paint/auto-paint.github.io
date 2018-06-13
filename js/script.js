@@ -70,7 +70,7 @@ include('js/jquery.easing.1.3.js');
     var o = $('html');
     if (o.hasClass('desktop')) {
         include('js/jquery.mousewheel.min.js');
-        include('js/jquery.simplr.smoothscroll.min.js');
+        //include('js/jquery.simplr.smoothscroll.min.js');
 
         $(document).ready(function () {
             $.srSmoothscroll({
